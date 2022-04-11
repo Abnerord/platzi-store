@@ -15,4 +15,9 @@ export class AppController {
   getprueba(): string {
     return 'pruebas numeor dos desde otra compu';
   }
+
+  @Get()
+  github(): string {
+    return 'pruebas para comprobar el git';
+  }
 }
