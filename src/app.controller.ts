@@ -13,6 +13,6 @@ export class AppController {
 
   @Get()
   getprueba(): string {
-    return 'prueba';
+    return 'pruebas numeor dos desde otra compu';
   }
 }
